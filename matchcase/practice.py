@@ -46,7 +46,7 @@ match Role :
     case _ :
         print("Invalid")    
 
-operation = input("Enter any operator f")
+operation = input("Enter any operator f ")
 a = 40
 b = 20
 
@@ -61,6 +61,21 @@ match operation :
         print(F"Divison of {a} / {b} is", a/b)
     case _ :
         print("Invalid Operator")
+
+name = "Sahil"
+hasVowel = False
+for letter in name:
+    match letter :
+        case "A" | "E" | "I" | "O" | "U" | "a" | "e" | "i" | "o" | "u" :
+            hasVowel = True
+            break
+if hasVowel :
+    print("It has vowels")
+else :
+    print("It doesnt have vowels")      
+
+
+
                
             
             
